@@ -1,0 +1,68 @@
+#info1{
+    border: 1px solid black;
+    width: 100%;
+    height: 250px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 5%;     
+}
+.flex-container > div {
+    border: 1px solid grey;
+}
+.Menu{
+    display: flex;
+    justify-content: center;
+}
+.flex-container2 {
+    justify-content: space-between;
+    width: 100%; 
+}
+#card1{
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+.escrito{
+    text-align: center;
+}
+.contact{
+    text-align: center;
+}
+#FormularioA{
+    display: flex;
+    justify-content: center;
+}
+.Formulario{
+    
+    width: 50%;
+    align-items: center;
+}
+#titulos{
+    color: chartreuse;
+}
+#boton{
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    width: 100%;
+}
+#titulo{
+    text-align: right;
+}
+#portada{   
+    width: 100%; 
+    height: 250px; 
+    opacity: 50%;
+}
+#barrafondo{
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(28,77,31,1) 4%, rgba(0,212,255,1) 100%);
+    border: 1px solid black;
+    width: 100%;
+}
+#link{
+    color: white;
+}
